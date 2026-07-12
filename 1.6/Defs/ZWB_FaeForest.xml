@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<BiomeDef>
+		<defName>ZWB_FaeForest</defName>
+		<label>fae forest</label>
+		<description>PLACEHOLDER</description>
+		<texture>ZWB_Textures/White</texture>
+		<workerClass>ZWBCore.BiomeWorker_Test</workerClass>
+		<settlementSelectionWeight>0.2</settlementSelectionWeight>
+		<movementDifficulty>1.5</movementDifficulty>
+		<animalDensity>3.6</animalDensity>
+		<plantDensity>0.85</plantDensity>
+		<wildPlantRegrowDays>14</wildPlantRegrowDays>
+		<forageability>1</forageability>
+		<foragedFood>RawBerries</foragedFood>	<!-- PLACEHOLDER -->
+		<maxFishPopulation>450</maxFishPopulation>
+		<!-- <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility> -->
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<Fish_Salmon MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Salmon>
+				<Fish_Bass MayRequire="Ludeon.RimWorld.Odyssey">0.5</Fish_Bass>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<Fish_Catfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Catfish>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<Fish_Salmon MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Salmon>
+				<Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<Fish_Tuna MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tuna>
+				<Fish_Dogfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Dogfish>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Temperate</rareCatchesSetMaker>
+		</fishTypes>
+		<soundsAmbient>
+			<li>Ambient_NightInsects_Standard</li>
+			<li>ZWB_Ambience_Cicadas</li>
+		</soundsAmbient>
+		<diseaseMtbDays>35</diseaseMtbDays>
+		<diseases>
+			<li>
+				<diseaseInc>Disease_Flu</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_Plague</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_GutWorms</diseaseInc>
+				<commonality>50</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_FibrousMechanites</diseaseInc>
+				<commonality>30</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
+				<commonality>30</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_MuscleParasites</diseaseInc>
+				<commonality>50</commonality>
+			</li>
+
+			<li>
+				<diseaseInc>Disease_AnimalFlu</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_AnimalPlague</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_OrganDecay</diseaseInc>
+				<commonality>10</commonality>
+			</li>
+		</diseases>
+		<coastalBeachTerrain>Mud</coastalBeachTerrain>
+		<lakeBeachTerrain>Mud</lakeBeachTerrain>
+		<riverbankTerrain>Mud</riverbankTerrain>
+		<waterShallowTerrain>WaterShallow</waterShallowTerrain>
+		<waterDeepTerrain>WaterDeep</waterDeepTerrain>
+		
+    <terrainsByFertility>
+      <li>
+        <terrain>Soil</terrain>
+        <min>-999</min>
+        <max>0.87</max>
+      </li>
+      <li>
+        <terrain>SoilRich</terrain>
+        <min>0.87</min>
+        <max>999</max>
+      </li>
+    </terrainsByFertility>
+    <terrainPatchMakers>
+      <li>
+        <perlinFrequency>0.04</perlinFrequency>
+        <thresholds>
+          <li>
+            <terrain>MarshyTerrain</terrain>
+            <min>0.35</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li>
+    	  <!--  <li>
+        <perlinFrequency>0.027</perlinFrequency>
+        <thresholds>
+          <li>
+            <terrain>SoilRich</terrain>
+            <min>-0.1</min>
+            <max>0.32</max>
+          </li>
+          <li>
+            <terrain>Mud</terrain>
+            <min>0.32</min>
+            <max>0.6</max>
+          </li>
+          <li>
+            <terrain>WaterShallow</terrain>
+            <min>0.6</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li>
+      <li>
+
+        <perlinFrequency>0.035</perlinFrequency>
+        <thresholds>
+          <li>
+            <terrain>MarshyTerrain</terrain>
+            <min>0.24</min>
+            <max>0.48</max>
+          </li>
+          <li>
+            <terrain>Marsh</terrain>
+            <min>0.48</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li-->
+    </terrainPatchMakers>
+
+		<baseWeatherCommonalities>
+			<Clear>18</Clear>
+			<Fog>3</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>0.5</DryThunderstorm>
+			<RainyThunderstorm>1.5</RainyThunderstorm>
+			<FoggyRain>1.5</FoggyRain>
+			<SnowGentle>3</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+			<BlindFog MayRequire="Ludeon.RimWorld.Odyssey">1</BlindFog>
+			<Overcast MayRequire="Ludeon.RimWorld.Odyssey">2</Overcast>
+			<TorrentialRain MayRequire="Ludeon.RimWorld.Odyssey">0.3</TorrentialRain>
+		</baseWeatherCommonalities>
+		<wildPlants>
+			<!-- trees -->
+			<ZWB_Toadstool>1</ZWB_Toadstool>
+			<ZWB_FlowerOne>1</ZWB_FlowerOne>
+			<ZWB_FlowerTwo>1</ZWB_FlowerTwo>
+
+
+			<!-- ground cover -->
+			<ZWB_GhostMushroom>2.0</ZWB_GhostMushroom>
+			<ZWB_DarkGrass>4.8</ZWB_DarkGrass>
+			
+			
+			<!-- harvestable -->
+
+
+
+			
+			
+		</wildPlants>
+		<wildAnimals>
+			<!-- small grazers -->
+			<Rat>1</Rat>
+
+
+			<!-- large grazers -->
+			
+
+			<!-- scavengers -->
+			
+
+			<!-- predator/grazers -->
+			
+			<!-- predators -->
+			
+			
+		</wildAnimals>
+		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
+			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
+			<Rat>1</Rat>
+			<Boomrat>0.4</Boomrat>
+			<Boomalope>0.1</Boomalope>
+		</pollutionWildAnimals>
+		<coastalWildAnimals>
+			<Seal MayRequire="Ludeon.RimWorld.Odyssey">0.1</Seal>
+			<HermitCrab MayRequire="Ludeon.RimWorld.Odyssey">0.1</HermitCrab>
+			<StoneCrab MayRequire="Ludeon.RimWorld.Odyssey">0.1</StoneCrab>
+			<SeaTurtle MayRequire="Ludeon.RimWorld.Odyssey">0.1</SeaTurtle>
+		</coastalWildAnimals>
+		<allowedPackAnimals>
+			<li>Muffalo</li>
+			<li>Elephant</li>
+			<li>Dromedary</li>
+		</allowedPackAnimals>
+		<extraGenSteps>
+			<li>ZWB_ScattererAncientTrunks</li>
+		</extraGenSteps>
+	</BiomeDef>
+
+</Defs>

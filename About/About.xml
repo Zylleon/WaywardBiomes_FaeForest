@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+	<name>Wayward Biomes: Fae Forest</name>
+	<author>zylle</author>
+	<supportedVersions><li>1.6</li></supportedVersions>
+	<packageId>zylle.WaywardBiomes.FaeForest</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">GUI/ZModLogo</modIconPath>
+	<description>it's a forest
+
+
+Discord: https://discord.gg/RCY5bpCu9q
+Github: https://github.com/Zylleon/WaywardBiomesLandPond/releases/latest
+</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>zylle.WaywardBiomes.Core</packageId>
+			<displayName>Wayward Biomes: Core</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3710302618</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Zylleon/WaywardBiomesCore</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+		<li>zylle.WaywardBiomes.Core</li>
+	</loadAfter>
+</ModMetaData>

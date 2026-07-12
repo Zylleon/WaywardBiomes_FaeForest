@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="UglyRockBase">
+		<defName>ZWB_Stonewood</defName>
+		<label>stonewood</label>
+		<description>PLACEHOLDER</description>
+		<generateCommonality>0</generateCommonality>
+		<graphicData>
+			<texPath>ZWB_Textures/Buildings/Stonewood</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<linkType>None</linkType>
+			<drawSize>(3,3)</drawSize>
+			<drawOffset>(0,0,1.0)</drawOffset>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>600</MaxHitPoints>
+		</statBases>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>ZWB_BlockStonewood</mineableThing>
+			<mineableDropChance>1</mineableDropChance>
+			<mineableYield>16</mineableYield>
+			<biomeSpecific>true</biomeSpecific>
+			<isAirtight>false</isAirtight>
+			<!-- <smoothedThing>SmoothedSandstone</smoothedThing> -->
+		</building>
+		<statBases>
+			<Flammability>0.1</Flammability>
+		</statBases>
+	</ThingDef>
+
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>ZWB_BlockStonewood</defName>
+		<label>stonewood chunk</label>
+		<description>The petrified remains of a large ancient tree. Stonewood is considered quite pretty, and because of its rarity is also quite valuable. Stonewood burns exceptionally poorly, and cannot be used as fuel. It is also a poor material for crafting weapons.</description>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/Stonewood</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>0.3</Mass>
+			<MarketValue>5</MarketValue>
+			<SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+			<StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Woody</li>
+				<li>Stony</li>
+			</categories>
+			<commonality>0.015</commonality>
+			<color>(96,76,57)</color>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<stuffAdjective>stonewood</stuffAdjective>
+			<statFactors>
+				<Beauty>2.8</Beauty>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<WorkToBuild>3.0</WorkToBuild>
+				<WorkToMake>1.05</WorkToMake>
+				<Flammability>0.5</Flammability>
+				<DoorOpenSpeed>1.1</DoorOpenSpeed>
+			</statFactors>
+			<canSuggestUseDefaultStuff>false</canSuggestUseDefaultStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+		</stuffProps>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>false</smeltable>
+		
+	</ThingDef>
+
+
+
+
+</Defs>

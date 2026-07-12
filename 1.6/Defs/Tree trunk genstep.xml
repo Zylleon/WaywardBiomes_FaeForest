@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<GenStepDef>
+		<order>950</order>
+		<defName>ZWB_ScattererAncientTrunks</defName>
+		<genStep Class="GenStep_ScatterGroupPrefabs">
+			<allowInWaterBiome>false</allowInWaterBiome>
+			<isJunk>false</isJunk>
+			<minSpacing>35</minSpacing>
+			<countPer10kCellsRange>1.1~1.9</countPer10kCellsRange>
+			<spotMustBeStandable>true</spotMustBeStandable>
+			<allowRoofed>false</allowRoofed>
+			<!--
+			<validators>
+				<li Class="ScattererValidator_Buildable">
+					<radius>0</radius>
+					<affordance>GrowSoil</affordance>
+				</li>
+			</validators>
+			-->
+			<groups>
+				<ZWB_PrefabAncientTrunkA>	<!-- 19d, solid with one opening, half rich soil, good naked brutality starter base -->
+					<weight>2.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkA>
+				<ZWB_PrefabAncientTrunkB>		<!-- 19, mostly solid with sevreral small openings. Little rich soil -->
+					<weight>2.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkB>
+				<ZWB_PrefabAncientTrunkC>		<!-- 19, mostly solid with scattered side -->
+					<weight>2.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkC>
+				<ZWB_PrefabAncientTrunkD>		<!-- 19, 2 openings and lots of rich soil -->
+					<weight>2.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkD>
+				<ZWB_PrefabAncientTrunkE>		<!-- 18. half circle of trunk with full ring of rich soil -->
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkE>
+				<ZWB_PrefabAncientTrunkF>		<!-- 18, 2 sides split diagonally -->
+					<weight>2.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkF>
+				<ZWB_PrefabAncientTrunkG>		<!-- 18, 2 sides -->
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkG>
+				<ZWB_PrefabAncientTrunkH>		<!-- 17, solid with 1 opening -->
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkH>
+				<ZWB_PrefabAncientTrunkI>		<!-- 17, mostly solid with diagonal opening -->
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkI>
+				<ZWB_PrefabAncientTrunkJ>		<!-- 17, piecy with little rich soil -->	
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkJ>
+				<ZWB_PrefabAncientTrunkK>		<!-- 17, piecy with large opening and patch of rich soil -->		
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkK>
+				<ZWB_PrefabAncientTrunkL>		<!-- 16, solid with large diagonal opening -->		
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkL>
+				<ZWB_PrefabAncientTrunkM>		<!-- 16, 2 pieces -->	
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkM>
+				<ZWB_PrefabAncientTrunkN>		<!-- 16, piecy with puddle of rich soil -->
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkN>
+				<ZWB_PrefabAncientTrunkO>		<!-- 16, solid with several small openings and a lot of rich soil -->	
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkO>
+				<ZWB_PrefabAncientTrunkP>		<!-- 15, mostly wolid with several openings. SMALLEST-->	
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkP>
+				<ZWB_PrefabAncientTrunkQ>		<!-- 15, several openings, medium rich soil -->		
+					<weight>0.5</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkQ>
+				<ZWB_PrefabAncientTrunkR>		<!-- 15, solid with piecy filling with lots of rich soil -->	
+					<weight>0.5</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkR>
+				<ZWB_PrefabAncientTrunkS>		<!-- 15, piecy and partial with lots of rich soil -->
+					<weight>1.0</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkS>
+				
+			</groups>
+		</genStep>
+	</GenStepDef>
+
+
+
+</Defs>

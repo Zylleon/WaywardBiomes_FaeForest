@@ -34,8 +34,8 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_GhostMushroom</defName>
-		<label>ghost mushroom</label>
+		<defName>ZWB_DeadmansFinger</defName>
+		<label>deadman's finger</label>
 		<description>PLACEHOLDER</description>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
@@ -44,7 +44,7 @@
 		</statBases>
 		<pathCost>14</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/GhostMushroom</texPath>
+			<texPath>ZWB_Textures/Plants/DeadmansFinger</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shaderType>TransparentPlant</shaderType>
 		</graphicData>

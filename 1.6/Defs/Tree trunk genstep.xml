@@ -97,7 +97,14 @@
 					<weight>1.0</weight>
 					<indoorRuin>false</indoorRuin>
 				</ZWB_PrefabAncientTrunkS>
-				
+				<ZWB_PrefabAncientTrunkT>		 <!-- XL -->
+					<weight>1.5</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkT>
+				<ZWB_PrefabAncientTrunkU>		<!-- XXL double ring -->
+					<weight>1.2</weight>
+					<indoorRuin>false</indoorRuin>
+				</ZWB_PrefabAncientTrunkU>
 			</groups>
 		</genStep>
 	</GenStepDef>

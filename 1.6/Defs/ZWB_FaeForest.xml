@@ -14,7 +14,7 @@
 		<plantDensity>0.85</plantDensity>
 		<wildPlantRegrowDays>14</wildPlantRegrowDays>
 		<forageability>1</forageability>
-		<foragedFood>RawBerries</foragedFood>	<!-- PLACEHOLDER -->
+		<foragedFood>RawBerries</foragedFood><!-- PLACEHOLDER -->
 		<maxFishPopulation>450</maxFishPopulation>
 		<!-- <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility> -->
 		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
@@ -84,31 +84,45 @@
 		<riverbankTerrain>Mud</riverbankTerrain>
 		<waterShallowTerrain>WaterShallow</waterShallowTerrain>
 		<waterDeepTerrain>WaterDeep</waterDeepTerrain>
-		
-    <terrainsByFertility>
-      <li>
-        <terrain>Soil</terrain>
-        <min>-999</min>
-        <max>0.87</max>
-      </li>
-      <li>
-        <terrain>SoilRich</terrain>
-        <min>0.87</min>
-        <max>999</max>
-      </li>
-    </terrainsByFertility>
-    <terrainPatchMakers>
-      <li>
-        <perlinFrequency>0.04</perlinFrequency>
-        <thresholds>
-          <li>
-            <terrain>MarshyTerrain</terrain>
-            <min>0.35</min>
-            <max>999</max>
-          </li>
-        </thresholds>
-      </li>
-    	  <!--  <li>
+
+		<terrainsByFertility>
+			<li>
+				<terrain>Mud</terrain>
+				<min>-999</min>
+				<max>0.15</max>
+			</li>
+			<li>
+				<terrain>ZWB_VintedSoil</terrain>
+				<min>0.15</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+		<terrainPatchMakers>
+
+			<li><!-- Adds the rivulets -->
+				<perlinFrequency>0.02</perlinFrequency>
+				<perlinLacunarity>0</perlinLacunarity>
+				<minFertility>0.20</minFertility>
+				<maxFertility>0.50</maxFertility>
+				<thresholds>
+					<li>
+						<terrain>WaterShallow</terrain>
+						<min>-0.06</min>
+						<max>0.06</max>
+					</li>
+				</thresholds>
+			</li>
+			<li>
+				<perlinFrequency>0.04</perlinFrequency>
+				<thresholds>
+					<li>
+						<terrain>MarshyTerrain</terrain>
+						<min>0.5</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+			<!--  <li>
         <perlinFrequency>0.027</perlinFrequency>
         <thresholds>
           <li>
@@ -144,7 +158,7 @@
           </li>
         </thresholds>
       </li-->
-    </terrainPatchMakers>
+		</terrainPatchMakers>
 
 		<baseWeatherCommonalities>
 			<Clear>18</Clear>
@@ -170,14 +184,14 @@
 			<!-- ground cover -->
 			<ZWB_DeadmansFinger>2.0</ZWB_DeadmansFinger>
 			<ZWB_DarkGrass>4.8</ZWB_DarkGrass>
-			
-			
+
+
 			<!-- harvestable -->
 
 
 
-			
-			
+
+
 		</wildPlants>
 		<wildAnimals>
 			<!-- small grazers -->
@@ -185,16 +199,16 @@
 
 
 			<!-- large grazers -->
-			
+
 
 			<!-- scavengers -->
-			
+
 
 			<!-- predator/grazers -->
-			
+
 			<!-- predators -->
-			
-			
+
+
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
 			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>

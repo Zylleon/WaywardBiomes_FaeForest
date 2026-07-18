@@ -41,6 +41,7 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<Flammability>0.9</Flammability>
 			<Nutrition>0.25</Nutrition>
+			<Beauty>-1</Beauty>
 		</statBases>
 		<pathCost>14</pathCost>
 		<graphicData>
@@ -65,5 +66,38 @@
 	</ThingDef>
 
 
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_BlueOfTheHollow</defName>
+		<label>blue-of-the-hollow</label>
+		<description>PLACEHOLDER</description>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Nutrition>0.50</Nutrition>
+			<Beauty>14</Beauty>
+		</statBases>
+		<pathCost>14</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/BlueOfTheHollow</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilityMin>1.5</fertilityMin>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
+			<purpose>Beauty</purpose>
+			<growDays>6</growDays>
+			<harvestWork>60</harvestWork>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.7~1.5</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<!-- <wildClusterRadius>4</wildClusterRadius> -->
+			<!-- <wildClusterWeight>450</wildClusterWeight> -->
+			<wildOrder>1</wildOrder>
+			<maxGrowthTemperature>75</maxGrowthTemperature>
+		</plant>
+	</ThingDef>
 </Defs>
 

@@ -3,7 +3,7 @@
 
 
 	<GenStepDef>
-		<order>950</order>
+		<order>740</order>
 		<defName>ZWB_ScattererAncientTrunks</defName>
 		<genStep Class="GenStep_ScatterGroupPrefabs">
 			<allowInWaterBiome>false</allowInWaterBiome>

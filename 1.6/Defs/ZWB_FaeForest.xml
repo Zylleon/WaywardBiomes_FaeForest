@@ -176,16 +176,17 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<!-- trees -->
-			<ZWB_Toadstool>1</ZWB_Toadstool>
-			<ZWB_FlowerOne>1</ZWB_FlowerOne>
-			<ZWB_FlowerTwo>1</ZWB_FlowerTwo>
-
+			<ZWB_Toadstool>1.0</ZWB_Toadstool>
+			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>
+			<ZWB_FlowerTwo>1.0</ZWB_FlowerTwo>
+	
 
 			<!-- ground cover -->
 			<ZWB_DeadmansFinger>2.0</ZWB_DeadmansFinger>
 			<ZWB_DarkGrass>4.8</ZWB_DarkGrass>
 
-
+			<!-- high beauty -->
+			<ZWB_BlueOfTheHollow>0.2</ZWB_BlueOfTheHollow>
 			<!-- harvestable -->
 
 

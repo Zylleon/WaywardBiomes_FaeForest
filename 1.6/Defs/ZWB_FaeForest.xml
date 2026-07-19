@@ -177,16 +177,22 @@
 		<wildPlants>
 			<!-- trees -->
 			<ZWB_Toadstool>1.0</ZWB_Toadstool>
-			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>
 			<ZWB_FlowerTwo>1.0</ZWB_FlowerTwo>
 	
 
 			<!-- ground cover -->
+			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>			<!-- extremely large, but not harvestable -->
 			<ZWB_DeadmansFinger>2.0</ZWB_DeadmansFinger>
 			<ZWB_DarkGrass>4.8</ZWB_DarkGrass>
-
+			<ZWB_ButterBells>0.4</ZWB_ButterBells>
+			
+			
+			
 			<!-- high beauty -->
-			<ZWB_BlueOfTheHollow>0.2</ZWB_BlueOfTheHollow>
+			<ZWB_JewelOfTheHollow>0.2</ZWB_JewelOfTheHollow>	<!-- only grows around tree stumps -->
+			
+			
+			
 			<!-- harvestable -->
 
 

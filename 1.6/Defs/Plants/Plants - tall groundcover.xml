@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_JewelOfTheHollow</defName>
+		<label>jewel-of-the-hollow</label>
+		<description>PLACEHOLDER</description>
+		<selectable>true</selectable>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Nutrition>0.50</Nutrition>
+			<Beauty>28</Beauty>
+			<BeautyOutdoors>32</BeautyOutdoors>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/JewelOfTheHollow</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<ingestible/>
+		<plant>
+			<fertilityMin>1.5</fertilityMin>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
+			<purpose>Beauty</purpose>
+			<growDays>7.5</growDays>
+			<harvestWork>120</harvestWork>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>1.2~2.8</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+			<!-- <wildClusterRadius>4</wildClusterRadius> -->
+			<!-- <wildClusterWeight>450</wildClusterWeight> -->
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_ButterBells</defName>
+		<label>butter bells</label>
+		<description>PLACEHOLDER</description>
+		<selectable>true</selectable>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Flammability>0.5</Flammability>
+			<Nutrition>0.50</Nutrition>
+			<Beauty>14</Beauty>
+			<BeautyOutdoors>18</BeautyOutdoors>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/ButterBells</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<ingestible/>
+		<plant>
+			<!-- <fertilityMin>1.5</fertilityMin> -->
+			<fertilitySensitivity>0.9</fertilitySensitivity>
+			<purpose>Beauty</purpose>
+			<growDays>6</growDays>
+			<sowWork>540</sowWork>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<harvestWork>120</harvestWork>
+			<!-- <maxMeshCount>4</maxMeshCount> -->
+			<visualSizeRange>1.2~2.8</visualSizeRange>
+			<topWindExposure>0.7</topWindExposure>
+			<wildClusterRadius>8</wildClusterRadius>
+			<wildClusterWeight>280</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+</Defs>

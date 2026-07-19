@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>ZWB_StonewoodFloor</defName>
+		<label>stonewood floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Stonewood floor, lovingly crafted from chunks of ancient stonewood and polished smooth.</description>
+		<texturePath>ZWB_Textures/Terrain/StonewoodFloor</texturePath>
+		<!-- <burnedDef>BurnedWoodPlankFloor</burnedDef> -->
+		<color>(227,184,180)</color>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<isPaintable>true</isPaintable>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Flammability>0.0</Flammability>
+			<Beauty>4</Beauty>
+		</statBases>
+		<costList>
+			<ZWB_Stonewood>8</ZWB_Stonewood>
+		</costList>
+		<tags>
+			<li>FineFloor</li>
+		</tags>
+		<constructEffect>ConstructWood</constructEffect>
+		<!-- <uiOrder>2000</uiOrder> -->
+	</TerrainDef>
+
+
+
+</Defs>
+

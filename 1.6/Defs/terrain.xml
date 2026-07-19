@@ -9,7 +9,7 @@
 		<description>Stonewood floor, lovingly crafted from chunks of ancient stonewood and polished smooth.</description>
 		<texturePath>ZWB_Textures/Terrain/StonewoodFloor</texturePath>
 		<!-- <burnedDef>BurnedWoodPlankFloor</burnedDef> -->
-		<color>(227,184,180)</color>
+		<!-- <color>(227,184,180)</color> -->
 		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
 		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
 		<isPaintable>true</isPaintable>

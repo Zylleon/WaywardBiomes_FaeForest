@@ -40,45 +40,6 @@
 
 
 
-
-	<ThingDef ParentName="TreeBase">
-		<defName>ZWB_FlowerOne</defName>
-		<label>Flower1</label>
-		<description>PLACEHOLDER</description>
-		<statBases>
-			<Beauty>4</Beauty>
-			<BeautyOutdoors>4</BeautyOutdoors>
-			<Nutrition>1.25</Nutrition>
-		</statBases>
-		<pathCost>18</pathCost>
-		<graphicData>
-			<texPath>ZWB_Textures/Plants/Flower1</texPath>
-			<graphicClass>Graphic_Random</graphicClass>
-			<shadowData>
-				<volume>(0.1, 0.35, 0.1)</volume>
-				<offset>(0,0,-0.42)</offset>
-			</shadowData>
-		</graphicData>
-		<!-- <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth> -->
-		<ingestible/>
-		<plant>
-			<fertilitySensitivity>0.8</fertilitySensitivity>
-			<growDays>33</growDays>
-			<fertilityMin>0.25</fertilityMin>
-			<choppedThingDef />
-			<smashedThingDef />
-			<visualSizeRange>1.5~4.0</visualSizeRange>
-			<topWindExposure>0.4</topWindExposure>
-			<wildClusterRadius>4</wildClusterRadius>
-			<wildClusterWeight>200</wildClusterWeight>
-			<harvestYield>14</harvestYield>
-			<harvestWork>600</harvestWork>
-		</plant>
-	</ThingDef>
-
-
-
-
 	<ThingDef ParentName="TreeBase">
 		<defName>ZWB_FlowerTwo</defName>
 		<label>Flower2</label>

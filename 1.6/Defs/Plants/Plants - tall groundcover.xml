@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_JewelOfTheHollow</defName>
 		<label>jewel-of-the-hollow</label>
@@ -34,41 +35,42 @@
 			<wildOrder>1</wildOrder>
 		</plant>
 	</ThingDef>
+	
+	
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_ButterBells</defName>
-		<label>butter bells</label>
+		<defName>ZWB_FlowerOne</defName>
+		<label>Flower1</label>
 		<description>PLACEHOLDER</description>
-		<selectable>true</selectable>
-		<altitudeLayer>DoorMoveable</altitudeLayer>
 		<statBases>
-			<MaxHitPoints>90</MaxHitPoints>
-			<Flammability>0.5</Flammability>
-			<Nutrition>0.50</Nutrition>
-			<Beauty>14</Beauty>
-			<BeautyOutdoors>18</BeautyOutdoors>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>1.25</Nutrition>
 		</statBases>
 		<pathCost>18</pathCost>
+		<selectable>true</selectable>
+		<altitudeLayer>Building</altitudeLayer>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/ButterBells</texPath>
+			<texPath>ZWB_Textures/Plants/Flower1</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.1, 0.35, 0.1)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
 		</graphicData>
+		<!-- <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth> -->
 		<ingestible/>
 		<plant>
-			<!-- <fertilityMin>1.5</fertilityMin> -->
-			<fertilitySensitivity>0.9</fertilitySensitivity>
-			<purpose>Beauty</purpose>
-			<growDays>6</growDays>
-			<sowWork>540</sowWork>
-			<sowTags>
-				<li>Ground</li>
-			</sowTags>
-			<harvestWork>120</harvestWork>
-			<!-- <maxMeshCount>4</maxMeshCount> -->
-			<visualSizeRange>1.2~2.8</visualSizeRange>
-			<topWindExposure>0.7</topWindExposure>
-			<wildClusterRadius>8</wildClusterRadius>
-			<wildClusterWeight>280</wildClusterWeight>
-			<wildOrder>1</wildOrder>
+			<fertilitySensitivity>0.8</fertilitySensitivity>
+			<growDays>33</growDays>
+			<fertilityMin>0.25</fertilityMin>
+			<choppedThingDef />
+			<smashedThingDef />
+			<visualSizeRange>1.5~4.0</visualSizeRange>
+			<topWindExposure>0.4</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
 		</plant>
 	</ThingDef>
+
+	
 </Defs>

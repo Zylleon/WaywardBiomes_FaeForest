@@ -4,7 +4,7 @@
 	<ThingDef ParentName="UglyRockBase">
 		<defName>ZWB_Stonewood</defName>
 		<label>stonewood</label>
-		<description>PLACEHOLDER</description>
+		<description>The remnants of an enormous tree. While the tree has crumbled almost into nothing, this ancient stump can still be mined for useable material.</description>
 		<generateCommonality>0</generateCommonality>
 		<graphicData>
 			<texPath>ZWB_Textures/Buildings/Stonewood</texPath>
@@ -34,7 +34,7 @@
 	<ThingDef ParentName="StoneBlocksBase">
 		<defName>ZWB_BlockStonewood</defName>
 		<label>stonewood chunk</label>
-		<description>The petrified remains of a large ancient tree. Stonewood is considered quite pretty, and because of its rarity is also quite valuable. Stonewood burns exceptionally poorly, and cannot be used as fuel. It is also a poor material for crafting weapons.</description>
+		<description>The petrified remains of a huge ancient tree. Stonewood is considered quite pretty, and because of its rarity is also quite valuable. Stonewood burns exceptionally poorly, and cannot be used as fuel. It is also a poor material for crafting weapons.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Things/Stonewood</texPath>
 		</graphicData>

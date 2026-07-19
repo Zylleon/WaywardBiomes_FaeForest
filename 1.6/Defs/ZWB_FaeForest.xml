@@ -181,17 +181,17 @@
 	
 
 			<!-- ground cover -->
-			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>			<!-- extremely large, but not harvestable -->
 			<ZWB_DeadmansFinger>2.0</ZWB_DeadmansFinger>
-			<ZWB_DarkGrass>4.8</ZWB_DarkGrass>
+			<ZWB_DarkGrass>3.8</ZWB_DarkGrass>
+			<ZWB_Clover>2.0</ZWB_Clover>
 			<ZWB_ButterBells>0.4</ZWB_ButterBells>
-			
+			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>			<!-- extremely large, but not harvestable -->
 			
 			
 			<!-- high beauty -->
 			<ZWB_JewelOfTheHollow>0.2</ZWB_JewelOfTheHollow>	<!-- only grows around tree stumps -->
-			
-			
+			<ZWB_CroucasTears>0.3</ZWB_CroucasTears>
+			<ZWB_MonkeysPaintbrush>0.8</ZWB_MonkeysPaintbrush>
 			
 			<!-- harvestable -->
 

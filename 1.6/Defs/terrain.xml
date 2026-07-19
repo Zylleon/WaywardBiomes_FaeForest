@@ -3,7 +3,7 @@
 
 
 	<TerrainDef ParentName="FloorBase">
-		<defName>ZWB_StonewoodFloor</defName>
+		<defName>ZWB_StonewoodFloorFine</defName>
 		<label>stonewood floor</label>
 		<renderPrecedence>250</renderPrecedence>
 		<description>Stonewood floor, lovingly crafted from chunks of ancient stonewood and polished smooth.</description>
@@ -16,7 +16,7 @@
 		<statBases>
 			<WorkToBuild>600</WorkToBuild>
 			<Flammability>0.0</Flammability>
-			<Beauty>4</Beauty>
+			<Beauty>6</Beauty>
 		</statBases>
 		<costList>
 			<ZWB_Stonewood>8</ZWB_Stonewood>
@@ -24,6 +24,33 @@
 		<tags>
 			<li>FineFloor</li>
 		</tags>
+		<constructEffect>ConstructWood</constructEffect>
+		<!-- <uiOrder>2000</uiOrder> -->
+	</TerrainDef>
+
+
+	<TerrainDef ParentName="FloorBase">
+		<defName>ZWB_ShastaFloor</defName>
+		<label>shasta floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Woven shasta floor. Quick to lay, but somewhat flammable.</description>
+		<texturePath>ZWB_Textures/Terrain/ShastaFloor</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<!-- <color>(227,184,180)</color> -->
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<isPaintable>true</isPaintable>
+		<statBases>
+			<WorkToBuild>60</WorkToBuild>
+			<Flammability>0.18</Flammability>
+			<Beauty>0</Beauty>
+		</statBases>
+		<costList>
+			<ZWB_Shasta>3</ZWB_Shasta>
+		</costList>
+		<!-- <tags> -->
+			<!-- <li>FineFloor</li> -->
+		<!-- </tags> -->
 		<constructEffect>ConstructWood</constructEffect>
 		<!-- <uiOrder>2000</uiOrder> -->
 	</TerrainDef>

@@ -102,11 +102,24 @@
 			<fertilityMin>0.5</fertilityMin>
 			<choppedThingDef />
 			<smashedThingDef />
+			<harvestWork>500</harvestWork>
 			<visualSizeRange>1.0~2.0</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
 			<wildClusterRadius>10</wildClusterRadius>
 			<wildClusterWeight>280</wildClusterWeight>
 		</plant>
+		<modExtensions>
+			<li Class="ZWBCore.ModExtension_Plant">
+				<extraHarvests>
+					<li>
+						<harvestedThingDef>ZWB_EggWikket</harvestedThingDef>
+						<harvestYield>1</harvestYield>
+						<harvestChance>0.015</harvestChance>
+						<harvestMinGrowth>0.9</harvestMinGrowth>
+					</li>
+				</extraHarvests>
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 </Defs>

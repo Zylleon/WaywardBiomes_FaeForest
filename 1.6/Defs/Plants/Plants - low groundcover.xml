@@ -43,6 +43,7 @@
 			<Beauty>-1</Beauty>
 		</statBases>
 		<pathCost>14</pathCost>
+		<selectable>true</selectable>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/DeadmansFinger</texPath>
 			<graphicClass>Graphic_Random</graphicClass>

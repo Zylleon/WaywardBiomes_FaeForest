@@ -151,7 +151,7 @@
 			<ZWB_Clover>2.0</ZWB_Clover>
 			<ZWB_ButterBells>0.4</ZWB_ButterBells>
 			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>			<!-- extremely large, but not harvestable -->
-			
+			<ZWB_TrickyWikket>0.4</ZWB_TrickyWikket>
 			
 			<!-- high beauty -->
 			<ZWB_JewelOfTheHollow>0.2</ZWB_JewelOfTheHollow>	<!-- only grows around tree stumps -->
@@ -168,11 +168,11 @@
 		<wildAnimals>
 			<!-- small grazers -->
 			<Rat>1</Rat>
-
+			<ZWB_RosyPosy>0.5</ZWB_RosyPosy>		<!-- good pet -->
 
 			<!-- large grazers -->
-
-
+			<ZWB_Seggie>0.5</ZWB_Seggie>			<!-- pack animal -->
+			
 			<!-- scavengers -->
 
 

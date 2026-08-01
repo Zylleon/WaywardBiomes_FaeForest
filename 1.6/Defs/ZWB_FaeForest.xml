@@ -169,7 +169,9 @@
 			<!-- small grazers -->
 			<Rat>1</Rat>
 			<ZWB_RosyPosy>0.5</ZWB_RosyPosy>		<!-- good pet -->
-
+			<ZWB_Shobb>0.3</ZWB_Shobb>
+			
+			
 			<!-- large grazers -->
 			<ZWB_Seggie>0.5</ZWB_Seggie>			<!-- pack animal -->
 			

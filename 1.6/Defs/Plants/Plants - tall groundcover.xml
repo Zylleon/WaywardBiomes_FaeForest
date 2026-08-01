@@ -77,7 +77,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_TrickyWikket</defName>
 		<label>tricky wikket</label>
-		<description>PLACEHOLDER</description>
+		<description>A large orange flower, rustling in the breeze.</description>
 		<statBases>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>

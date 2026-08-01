@@ -95,6 +95,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
+		<comps>
+			<li Class="ZWBCore.Comps.CompProperties_Cleaner"></li>
+		</comps>
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>

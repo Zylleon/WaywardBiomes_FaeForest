@@ -58,6 +58,7 @@
       <lifeExpectancy>13</lifeExpectancy>
       <trainability>Intermediate</trainability>
       <herdAnimal>true</herdAnimal>
+	  <specificMeatDef>RawFungus</specificMeatDef>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+  <ThingDef ParentName="WoolBase">
+    <defName>ZWB_WoolRouse</defName>
+    <label>rouse wool</label>
+    <description>Soft, light and provides middling insulation.</description>
+    <possessionCount>30</possessionCount>
+    <statBases>
+      <StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(117,109,95)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(117,109,95)</color>
+    </stuffProps>
+  </ThingDef>
+
+
+
+</Defs>
+

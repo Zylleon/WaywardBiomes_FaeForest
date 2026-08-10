@@ -42,7 +42,7 @@
 			<Nutrition>0.25</Nutrition>
 			<Beauty>-1</Beauty>
 		</statBases>
-		<pathCost>14</pathCost>
+		<pathCost>16</pathCost>
 		<selectable>true</selectable>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/DeadmansFinger</texPath>
@@ -74,27 +74,31 @@
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<Nutrition>0.4</Nutrition>
+			<Nutrition>0.3</Nutrition> 
 			<Beauty>3</Beauty>
+			<BeautyOutdoors>3</BeautyOutdoors>
 		</statBases>
-		<pathCost>14</pathCost>
+		<pathCost>8</pathCost>
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/Clover</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
-		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<hideAtSnowOrSandDepth>0.3</hideAtSnowOrSandDepth>
 		<ingestible/>
 		<plant>
 			<fertilitySensitivity>0.7</fertilitySensitivity>
 			<growDays>3</growDays>
 			<harvestWork>80</harvestWork>
 			<maxMeshCount>16</maxMeshCount>
-			<!-- <visualSizeRange>0.5~0.9</visualSizeRange> -->
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>	
 			<visualSizeRange>0.35~0.7</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
 			<wildClusterRadius>6</wildClusterRadius>
 			<wildClusterWeight>300</wildClusterWeight>
 			<wildOrder>1</wildOrder>
+			<purpose>Beauty</purpose>
 		</plant>
 	</ThingDef>
 

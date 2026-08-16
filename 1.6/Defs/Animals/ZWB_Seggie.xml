@@ -16,7 +16,7 @@
 			<Wildness>0.85</Wildness>
 			<CaravanRidingSpeedFactor>1.2</CaravanRidingSpeedFactor>
 		</statBases>
-		<!-- <uiIconScale>1.35</uiIconScale> -->
+		<uiIconScale>1.2</uiIconScale>
 		<race>
 			<herdAnimal>true</herdAnimal>
 			<body>ZWB_IsopodLike</body>

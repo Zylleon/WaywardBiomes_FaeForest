@@ -16,6 +16,7 @@
       <ComfyTemperatureMax>50</ComfyTemperatureMax>
       <Wildness>0.75</Wildness>
     </statBases>
+	<uiIconScale>1.15</uiIconScale>
     <tools>
       <li>
         <label>beak</label>
@@ -143,7 +144,7 @@
 			<color>(170,147,114)</color>
 			<drawSize>1.0</drawSize>
 		</graphicData>
-		<!-- <uiIconScale>0.666</uiIconScale> -->
+		<uiIconScale>0.666</uiIconScale>
 		<statBases>
 			<Nutrition>0.5</Nutrition>
 			<MarketValue>22.0</MarketValue>

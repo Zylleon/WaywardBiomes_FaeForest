@@ -12,9 +12,9 @@
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>700</MarketValue>
       <FilthRate>4</FilthRate>
-      <Wildness>0.8</Wildness>
+      <Wildness>0.7</Wildness>
     </statBases>
-    <uiIconScale>1.15</uiIconScale>
+    <uiIconScale>1.25</uiIconScale>
     <tools>
       <li>
         <label>left claw</label>
@@ -99,8 +99,8 @@
       <specialTrainables>
         <li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
       </specialTrainables>
-      <manhunterOnTameFailChance>0.30</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
       <soundEating>PredatorLarge_Eat</soundEating>
       <!-- <canFishForFood>true</canFishForFood> -->
       <lifeStageAges>

@@ -13,6 +13,7 @@
 			<MarketValue>410</MarketValue>
 			<Wildness>0.3</Wildness>
 		</statBases>
+		<uiIconScale>1.15</uiIconScale>
 		<tools>
 			<li>
 				<label>left claw</label>

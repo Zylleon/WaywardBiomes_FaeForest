@@ -15,7 +15,7 @@
 			<!-- <FilthRate>16</FilthRate> -->
 			<Wildness>0.5</Wildness>
 		</statBases>
-		<!-- <uiIconScale>1.35</uiIconScale> -->
+		<uiIconScale>0.85</uiIconScale>
 		<race>
 			<herdAnimal>false</herdAnimal>
 			<body>ZWB_IsopodLike</body>

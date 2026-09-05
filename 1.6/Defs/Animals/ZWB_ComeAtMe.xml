@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_ComeAtMe</defName>
+		<label>come-at-me</label>
+		<description>PLACEHOLDER</description>
+		<statBases>
+			<MoveSpeed>6.0</MoveSpeed>
+			<MarketValue>50</MarketValue>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<Wildness>1.0</Wildness>
+		</statBases>
+		<tools>
+			<li>
+				<capacities>
+					<li>ZWB_Ragebite</li>
+				</capacities>
+				<power>3.4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1.5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHungerRate>0.12</baseHungerRate>
+			<baseHealthScale>0.35</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<leatherDef>Leather_Light</leatherDef>
+			<trainability>None</trainability>
+			<gestationPeriodDays>5.0</gestationPeriodDays>
+			<soundEating>Rodent_Eat</soundEating>
+			<litterSizeCurve>
+				<points>
+					<li>(1.0, 0)</li>
+					<li>(1.5, 1)</li>
+					<li>(2.0, 1)</li>
+					<li>(2.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>6</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.20</minAge>
+					<soundWounded>Pawn_Hare_Wounded</soundWounded>
+					<soundDeath>Pawn_Hare_Death</soundDeath>
+					<soundCall>Pawn_Hare_Call</soundCall>
+					<soundAngry>Pawn_Hare_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+	</ThingDef>
+
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_ComeAtMe</defName>
+		<label>come-at-me</label>
+		<race>ZWB_ComeAtMe</race>
+		<combatPower>33</combatPower>
+		<ecoSystemWeight>0.25</ecoSystemWeight>
+		<hostileToAll>true</hostileToAll>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/ComeAtMe/ComeAtMe</texPath>
+					<drawSize>0.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/ComeAtMe/Dessicated_ComeAtMe</texPath>
+					<drawSize>0.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/ComeAtMe/ComeAtMe</texPath>
+					<drawSize>0.65</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/ComeAtMe/Dessicated_ComeAtMe</texPath>
+					<drawSize>0.65</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/ComeAtMe/ComeAtMe</texPath>
+					<drawSize>0.88</drawSize>
+					<shadowData>
+						<volume>(0.32, 0.35, 0.32)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/ComeAtMe/Dessicated_ComeAtMe</texPath>
+					<drawSize>0.88</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

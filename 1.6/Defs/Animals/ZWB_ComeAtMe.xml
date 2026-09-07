@@ -5,7 +5,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_ComeAtMe</defName>
 		<label>come-at-me</label>
-		<description>PLACEHOLDER</description>
+		<description>Despite being small and weak, the come-at-me will frequently pick fights with just about anything. These wild, aggressive creatures cannot be tamed.</description>
 		<statBases>
 			<MoveSpeed>6.0</MoveSpeed>
 			<MarketValue>50</MarketValue>

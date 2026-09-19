@@ -93,6 +93,8 @@ namespace ZWB_FaeForest
             if (TryFindRootCell(map, out var centerCell))
             {
                 IEnumerable<IntVec3> FairyRingCells = GenRadial.RadialCellsAround(centerCell, 13, true);
+                List<Thing> fairyShrooms = new List<Thing>();
+
                 foreach (IntVec3 c in FairyRingCells)
                 {
                     float dist = (float)Math.Sqrt(Math.Pow(c.x - centerCell.x, 2) + Math.Pow(c.z - centerCell.z, 2));
@@ -110,6 +112,7 @@ namespace ZWB_FaeForest
                         {
                            
                             Thing bigPlant = GenSpawn.Spawn(incidentDef.bigPlant, c, map);
+                            fairyShrooms.Add(bigPlant);
                             if (targetThing == null)
                             {
                                 targetThing = bigPlant;
@@ -146,6 +149,9 @@ namespace ZWB_FaeForest
                     }
                 }
 
+                FairyRingController controller = (FairyRingController)GenSpawn.Spawn(FFDefOf.ZWB_FairyRingController, centerCell, map);
+                controller.fairyShrooms = fairyShrooms;
+                targetThing = controller;
 
             }
 
@@ -153,6 +159,8 @@ namespace ZWB_FaeForest
             {
                 return false;
             }
+
+
 
             SendStandardLetter(parms, targetThing);
             return true;

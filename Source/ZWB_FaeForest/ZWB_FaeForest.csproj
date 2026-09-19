@@ -296,6 +296,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BiomeWorker_FaeForest.cs" />
+    <Compile Include="FairyRingController.cs" />
+    <Compile Include="FFDefOf.cs" />
     <Compile Include="IncidentWorker_FairyRing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

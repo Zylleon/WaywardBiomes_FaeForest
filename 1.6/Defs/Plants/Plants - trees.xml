@@ -24,7 +24,7 @@
 		<ingestible/>
 		<plant>
 			<fertilitySensitivity>0.8</fertilitySensitivity>
-			<growDays>33</growDays>
+			<growDays>29</growDays>
 			<fertilityMin>0.25</fertilityMin>
 			<choppedThingDef />
 			<smashedThingDef />
@@ -75,6 +75,70 @@
 		</plant>
 	</ThingDef>
 
+
+
+	<ThingDef ParentName="TreeBase">
+		<defName>ZWB_GnarledOak</defName>
+		<label>gnarled oak</label>
+		<description>An old, twisted oak. Can be chopped down for wood. Sometimes, you may also be able to harvest some of the fungus that grows on its trunk.</description>
+		<statBases>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/GnarledOak</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.2, 0.35, 0.2)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+		</graphicData>
+		<!-- <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth> -->
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>37</growDays>
+			<immatureGraphicPath>ZWB_Textures/Plants/GnarledOak_Immature</immatureGraphicPath>
+			<fertilityMin>0.25</fertilityMin>
+			<choppedThingDef />
+			<smashedThingDef />
+			<visualSizeRange>1.0~2.3</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<wildClusterRadius>6</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<harvestYield>34</harvestYield>
+			<harvestWork>800</harvestWork>
+			<harvestedThingDef>WoodLog</harvestedThingDef>
+		</plant>
+		<modExtensions>
+			<li Class="ZWBCore.ModExtension_Plant">
+				<extraHarvests>
+					<li>
+						<harvestedThingDef>RawFungus</harvestedThingDef>
+						<harvestYield>8</harvestYield>
+						<harvestChance>0.2</harvestChance>
+						<harvestMinGrowth>0.9</harvestMinGrowth>
+						<minSkillLevel>9</minSkillLevel>
+					</li>
+					<li>
+						<harvestedThingDef>RawFungus</harvestedThingDef>
+						<harvestYield>6</harvestYield>
+						<harvestChance>0.3</harvestChance>
+						<harvestMinGrowth>0.8</harvestMinGrowth>
+						<minSkillLevel>3</minSkillLevel>
+					</li>
+					<li>
+						<harvestedThingDef>RawFungus</harvestedThingDef>
+						<harvestYield>4</harvestYield>
+						<harvestChance>0.5</harvestChance>
+						<harvestMinGrowth>0.65</harvestMinGrowth>
+					</li>
+				</extraHarvests>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
 
 </Defs>

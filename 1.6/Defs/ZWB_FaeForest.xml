@@ -143,6 +143,7 @@
 			<!-- trees -->
 			<ZWB_Toadstool>1.0</ZWB_Toadstool>
 			<ZWB_FlowerTwo>1.0</ZWB_FlowerTwo>
+			<ZWB_GnarledOak>0.2</ZWB_GnarledOak>
 	
 
 			<!-- ground cover -->
@@ -160,6 +161,7 @@
 			
 			<!-- harvestable -->
 			<ZWB_Colliberry>0.05</ZWB_Colliberry>
+			<ZWB_Feverfew>0.05</ZWB_Feverfew>
 
 
 

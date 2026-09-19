@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using RimWorld.Planet;
 using Verse;
 
-namespace ZWB_LotusWilds
+namespace ZWB_FaeForest
 {
     public class BiomeWorker_FaeForest : BiomeWorker
     {

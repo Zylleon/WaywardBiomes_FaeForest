@@ -92,7 +92,7 @@
 				<max>.8</max>
 			</li>
 			<li>
-				<terrain>MarshyTerrain</terrain>
+				<terrain>ZWB_MarshyLoam</terrain>
 				<min>0.8</min>
 				<max>999</max>
 			</li>
@@ -143,7 +143,7 @@
 			<!-- trees -->
 			<ZWB_Toadstool>1.0</ZWB_Toadstool>
 			<ZWB_FlowerTwo>1.0</ZWB_FlowerTwo>
-			<ZWB_GnarledOak>0.2</ZWB_GnarledOak>
+			<ZWB_GnarledOak>0.3</ZWB_GnarledOak>
 	
 
 			<!-- ground cover -->

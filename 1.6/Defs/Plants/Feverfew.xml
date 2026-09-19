@@ -35,7 +35,7 @@
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>350</wildClusterWeight>
 			<wildOrder>2</wildOrder>
-			<visualSizeRange>0.55~1.2</visualSizeRange>
+			<visualSizeRange>0.55~1.1</visualSizeRange>
 			<topWindExposure>0.15</topWindExposure>
 			<wildOrder>2</wildOrder>
 			<purpose>Health</purpose>

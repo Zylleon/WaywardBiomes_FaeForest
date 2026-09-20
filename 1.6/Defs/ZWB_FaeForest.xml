@@ -149,10 +149,14 @@
 			<!-- ground cover -->
 			<ZWB_DeadmansFinger>2.0</ZWB_DeadmansFinger>
 			<ZWB_DarkGrass>3.8</ZWB_DarkGrass>
+			<ZWB_CobblersHedge>1.0</ZWB_CobblersHedge>
+			<ZWB_ElfinStars>1.5</ZWB_ElfinStars>
 			<ZWB_Clover>2.0</ZWB_Clover>
+			
 			<ZWB_ButterBells>0.4</ZWB_ButterBells>
-			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>			<!-- extremely large, but not harvestable -->
 			<ZWB_TrickyWikket>0.4</ZWB_TrickyWikket>
+			
+			<ZWB_FlowerOne>1.0</ZWB_FlowerOne>			<!-- extremely large, but not harvestable -->
 			
 			<!-- high beauty -->
 			<ZWB_JewelOfTheHollow>0.2</ZWB_JewelOfTheHollow>	<!-- only grows around tree stumps -->

@@ -91,7 +91,7 @@
 			<texPath>ZWB_Textures/Plants/GnarledOak</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
-				<volume>(0.2, 0.35, 0.2)</volume>
+				<volume>(0.5, 0.35, 0.1)</volume>
 				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>

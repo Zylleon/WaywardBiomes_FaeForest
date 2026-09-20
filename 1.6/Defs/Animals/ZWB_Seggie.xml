@@ -192,7 +192,7 @@
 					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Seggie/wDessicated_SeggieFemale</texPath>
+					<texPath>ZWB_Textures/Animals/Seggie/Dessicated_SeggieFemale</texPath>
 					<drawSize>3.8</drawSize>
 				</femaleDessicatedBodyGraphicData>
 			</li>

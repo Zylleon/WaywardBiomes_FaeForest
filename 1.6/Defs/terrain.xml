@@ -56,6 +56,33 @@
 	</TerrainDef>
 
 
+	<TerrainDef ParentName="FloorBase">
+		<defName>ZWB_GreenwoodFloor</defName>
+		<label>greenwood floor</label>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Greenwood plank flooring. Quick to lay.</description>
+		<texturePath>ZWB_Textures/Terrain/GreenwoodFloor</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<color>(95,89,52)</color>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<isPaintable>true</isPaintable>
+		<statBases>
+			<WorkToBuild>50</WorkToBuild>
+			<Flammability>0.05</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<costList>
+			<ZWB_GreenwoodLog>4</ZWB_GreenwoodLog>
+		</costList>
+		<!-- <tags> -->
+			<!-- <li>FineFloor</li> -->
+		<!-- </tags> -->
+		<constructEffect>ConstructWood</constructEffect>
+		<!-- <uiOrder>2000</uiOrder> -->
+	</TerrainDef>
+
+
 
 </Defs>
 

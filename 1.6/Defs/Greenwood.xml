@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>ZWB_GreenwoodLog</defName>
+		<label>greenwood log</label>
+		<description>Young woody material. Not very sturdy, but quick to build with and somewhat fire resistant.</description>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/Greenwood</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>0.8</MarketValue>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.3</Mass>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.7</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.4</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.75</BluntDamageMultiplier>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<stuffProps>
+			<stuffAdjective>greenwood</stuffAdjective>
+			<categories>
+				<li>Woody</li>
+			</categories>
+			<commonality>0.25</commonality>
+			<color>(95,89,52)</color>
+			<constructEffect>ConstructWood</constructEffect>
+			<appearance>Planks</appearance>
+			<soundImpactBullet>BulletImpact_Wood</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Wood</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>0.4</MaxHitPoints>
+				<Beauty>1.0</Beauty>
+				<Flammability>0.4</Flammability>
+				<WorkToMake>0.35</WorkToMake>
+				<WorkToBuild>0.35</WorkToBuild>
+				<DoorOpenSpeed>1.2</DoorOpenSpeed>
+				<BedRestEffectiveness>1.05</BedRestEffectiveness>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</ThingDef>
+
+
+
+</Defs>

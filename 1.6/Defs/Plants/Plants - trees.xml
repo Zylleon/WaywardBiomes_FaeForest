@@ -72,6 +72,7 @@
 			<wildClusterWeight>200</wildClusterWeight>
 			<harvestYield>14</harvestYield>
 			<harvestWork>600</harvestWork>
+			<harvestedThingDef>ZWB_GreenwoodLog</harvestedThingDef>
 		</plant>
 	</ThingDef>
 

@@ -26,7 +26,7 @@
 			<!-- <smoothedThing>SmoothedSandstone</smoothedThing> -->
 		</building>
 		<statBases>
-			<Flammability>0.1</Flammability>
+			<Flammability>0</Flammability>
 		</statBases>
 	</ThingDef>
 
@@ -62,7 +62,7 @@
 				<MaxHitPoints>1.2</MaxHitPoints>
 				<WorkToBuild>3.0</WorkToBuild>
 				<WorkToMake>1.05</WorkToMake>
-				<Flammability>0.5</Flammability>
+				<Flammability>0</Flammability>
 				<DoorOpenSpeed>1.1</DoorOpenSpeed>
 			</statFactors>
 			<canSuggestUseDefaultStuff>false</canSuggestUseDefaultStuff>

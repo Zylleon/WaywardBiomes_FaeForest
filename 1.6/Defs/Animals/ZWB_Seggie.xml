@@ -83,7 +83,7 @@
 			</li>
 			<li>
 				<label>front right leg</label>
-				<labelNoLocation>hoof</labelNoLocation>
+				<labelNoLocation>leg</labelNoLocation>
 				<capacities>
 					<li>Blunt</li>
 					<li>Poke</li>

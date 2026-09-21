@@ -19,7 +19,7 @@
 		<ingestible/>
 		<plant>
 			<sowMinSkill>5</sowMinSkill>
-			<dieIfLeafless>true</dieIfLeafless>
+			<dieIfLeafless>false</dieIfLeafless>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
@@ -35,7 +35,7 @@
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>350</wildClusterWeight>
 			<wildOrder>2</wildOrder>
-			<visualSizeRange>0.55~1.1</visualSizeRange>
+			<visualSizeRange>0.65~1.1</visualSizeRange>
 			<topWindExposure>0.15</topWindExposure>
 			<wildOrder>2</wildOrder>
 			<purpose>Health</purpose>

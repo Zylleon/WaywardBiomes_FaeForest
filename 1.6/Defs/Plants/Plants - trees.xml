@@ -109,7 +109,7 @@
 			<topWindExposure>0.1</topWindExposure>
 			<wildClusterRadius>6</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
-			<harvestYield>34</harvestYield>
+			<harvestYield>24</harvestYield>
 			<harvestWork>800</harvestWork>
 			<harvestedThingDef>WoodLog</harvestedThingDef>
 		</plant>

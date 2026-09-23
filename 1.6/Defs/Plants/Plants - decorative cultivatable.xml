@@ -88,7 +88,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_MonkeysPaintbrush</defName>
 		<label>monkey's paintbrush</label>
-		<description>A wildflower with red brush-shaped blossoms. Quite pretty.</description>
+		<description>A wildflower with red, brush-shaped blossoms. Quite pretty.</description>
 		<selectable>true</selectable>
 		<altitudeLayer>Item</altitudeLayer>
 		<statBases>

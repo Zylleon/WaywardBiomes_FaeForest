@@ -3,8 +3,8 @@
 
 
 	<ThingDef ParentName="TreeBase">
-		<defName>ZWB_Toadstool</defName>
-		<label>toadstool</label>
+		<defName>ZWB_SpottedRedcap</defName>
+		<label>spotted redcap</label>
 		<description>PLACEHOLDER</description>
 		<statBases>
 			<Beauty>4</Beauty>
@@ -13,7 +13,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Toadstool</texPath>
+			<texPath>ZWB_Textures/Plants/SpottedRedcap</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.2, 0.35, 0.2)</volume>
@@ -41,8 +41,8 @@
 
 
 	<ThingDef ParentName="TreeBase">
-		<defName>ZWB_FlowerTwo</defName>
-		<label>Flower2</label>
+		<defName>ZWB_Strawflower</defName>
+		<label>strawflower</label>
 		<description>PLACEHOLDER</description>
 		<statBases>
 			<Beauty>4</Beauty>
@@ -51,7 +51,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Flower2</texPath>
+			<texPath>ZWB_Textures/Plants/Strawflower</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.1, 0.35, 0.1)</volume>
